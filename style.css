@@ -14,8 +14,8 @@ h3{
     font-weight: 700;
 }
 h1{
-    position: absolute;
-    left: 120px;
+    margin-bottom: 50px;
+    margin-left: 15px;
     font-family: "Poppins";
     font-size: 40px;
 }
@@ -121,11 +121,9 @@ h4{
 }
 .container-grid{
     display: flex;
-    left: 100px;
     justify-content: center;
     width: 1000px;
     flex-wrap: wrap;
-    margin-top: 100px;
 }
 
 .order-container{
@@ -161,4 +159,9 @@ hr{
     border-radius: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
